@@ -1,0 +1,16 @@
+name1 = input()
+name2 = input()
+p1 = input()
+p2 = input()
+
+if p1 == "Rock" and p2 == "Scissor":
+    print(f"{name1} Win")
+    
+elif p1 == "Scissor" and p2 == "Paper":
+    print(f"{name1} Win")
+    
+elif p1 == "Paper" and p2 == "Rock":
+    print(f"{name1} Win")
+
+else:
+    print(f"{name2} Win")
