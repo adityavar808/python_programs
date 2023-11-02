@@ -1,0 +1,5 @@
+a,b,c,*d = (i for i in input("Enter the tuple item : ").split())
+print(a)
+print(b)
+print(c)
+print(d)
